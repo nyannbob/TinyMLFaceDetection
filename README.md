@@ -1,4 +1,4 @@
-![WhatsApp Image 2023-07-04 at 15 00 33_6e741b96](https://github.com/user-attachments/assets/2fbb5320-136e-4e70-b2ef-87ebbebd078b)# TinyML Face Detection using Arduino UNO and OV7675 Camera
+# TinyML Face Detection using Arduino UNO and OV7675 Camera
 
 This project demonstrates face detection on an Arduino UNO using the TinyML framework. The OV7675 camera is used to capture images, and a pre-trained MobileNet model along with a keyword spotter model is deployed on the Arduino to detect faces in real-time.
 
