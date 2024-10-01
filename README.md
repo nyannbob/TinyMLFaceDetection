@@ -5,6 +5,7 @@ This project demonstrates face detection on an Arduino UNO using the TinyML fram
 ## Table of Contents
 
 - [Overview](#overview)
+- [Project Structure](#project-structure)
 - [Hardware Requirements](#hardware-requirements)
 - [Software Requirements](#software-requirements)
 - [Setup and Installation](#setup-and-installation)
@@ -13,7 +14,6 @@ This project demonstrates face detection on an Arduino UNO using the TinyML fram
 - [Running the Project](#running-the-project)
 - [Troubleshooting](#troubleshooting)
 - [Future Work](#future-work)
-- [License](#license)
 
 ## Overview
 
@@ -21,6 +21,28 @@ This project implements a face detection system on low-power microcontrollers li
 
 ![WhatsApp Image 2023-07-04 at 15 00 33_6e741b96](https://github.com/user-attachments/assets/bc9027e9-50cf-48a3-bca6-ceb859d8eafa "Image captured using OV7675 Camera")
 
+## Project Structure
+
+```
+project-root/
+│
+├── Keyword_Spotting_Model/
+│   └── ... (KWS model files from TFlite)
+│
+├── Person_Detection_Model/
+│   └── ... (Resnet-0.25 model files from TFlite)
+|   
+├── Tensorflow/
+│   └── ... (Feature generation files)
+│
+├── .gitignore
+├── image_sender.cpp
+├── image_sender.h
+├── image_sender.cpp
+├── image_viewer_grayscale.py
+├── image_viewer.py
+└── multi_tenant.ino
+```
 
 ## Hardware Requirements
 
