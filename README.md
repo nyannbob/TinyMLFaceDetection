@@ -19,7 +19,18 @@ This project demonstrates face detection on an Arduino UNO using the TinyML fram
 
 This project implements a face detection system on low-power microcontrollers like the Arduino UNO. The system uses the OV7675 camera to capture images, and a pre-trained MobileNet model paired with a keyword spotter model is deployed using TensorFlow Micro to detect faces.
 
-![WhatsApp Image 2023-07-04 at 15 00 33_6e741b96](https://github.com/user-attachments/assets/bc9027e9-50cf-48a3-bca6-ceb859d8eafa "Image captured using OV7675 Camera")
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/user-attachments/assets/bc9027e9-50cf-48a3-bca6-ceb859d8eafa" alt="Image captured using OV7675 Camera" width="600"/>
+      <p>Image captured using OV7675 Camera</p>
+    </td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/f4c4bd84-4a24-4342-8712-9ff4921e34fc" alt="Second image description" width="420"/>
+      <p>Person detection output</p>
+    </td>
+  </tr>
+</table>
 
 ## Project Structure
 
